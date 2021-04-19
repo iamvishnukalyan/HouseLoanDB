@@ -1,0 +1,3 @@
+create table applicantTable(applicantName varchar(50), applicantAge int(50), applicantAddress varchar(50), applicantPhnNum varchar(50) primary key);
+
+create table loanTable(PhoneNumber varchar(50) primary key, age int(20), creditScore int(20), distanceFromBank int(20), occupation varchar(50), customerStatus int(50), TimeToRepay int(50), YearsOfExperience int(20), Amount int(50) not null);
